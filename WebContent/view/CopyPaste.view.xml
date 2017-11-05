@@ -1,0 +1,89 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:c="sap.cc.control"
+	xmlns="sap.m" controllerName="sap.cc.view.CopyPaste" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<Page title="Example of Copy Paste">
+		<content>
+			<c:CopyPasteTable id ='idTable' items="{/items}">
+				<c:items> <!-- sap.m.ListItemBase -->
+					<ColumnListItem id='idColListTemp' xmlns="sap.m"
+						detailTap="" press="" detailPress="">
+						<cells>
+							
+							<Input value="{fname}" >
+
+							</Input>
+							<Input value="{lname}" >
+
+							</Input>
+							<Input value="{company_name}" >
+
+							</Input>
+							<Input value="{email}" >
+
+							</Input>
+							<Input value="{country}" >
+
+							</Input>
+							<Input value="{phone}" >
+
+							</Input>
+						</cells> <!-- sap.ui.core.Control -->
+					</ColumnListItem>
+
+				</c:items>
+				<c:columns> <!-- sap.m.Column -->
+					
+					<Column >
+						<header>
+							<Text text="First Name" >
+								
+								
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Last Name" >
+								
+								
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Company Name " >
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Email">
+								
+								
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text  text="Country" >
+								
+								
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+					<Column >
+						<header>
+							<Text text="Phone" >
+								
+								
+							</Text>
+						</header> <!-- sap.ui.core.Control -->
+					</Column>
+				</c:columns>
+			</c:CopyPasteTable>
+		</content>
+	</Page>
+	</App>
+	
+</core:View>
