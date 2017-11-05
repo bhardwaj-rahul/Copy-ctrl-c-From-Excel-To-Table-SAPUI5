@@ -12,6 +12,10 @@ Please check the Example-GIF file for Demo.
 
 Note: It is a complete working Project.
 
-#Custom Control: CopyPasteTable
+# Custom Control: CopyPasteTable
 
 New Custom Control CopyPasteTable is created which listens to the paste events on the table.
+
+Here is the Demo:
+
+![alt text](https://github.com/bhardwaj-rahul/Copy-ctrl-c-From-Excel-To-Table-SAPUI5/blob/master/Copy%20From%20Excel-%20Example%20-GIF.gif "Demo Example")
