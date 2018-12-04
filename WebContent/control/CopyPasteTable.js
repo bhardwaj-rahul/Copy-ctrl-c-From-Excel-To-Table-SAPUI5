@@ -43,7 +43,7 @@ sap.ui.define([
 				}
 				
 				var lesserLength = Math.min(templateItem.length,(cells.length + startPropertyIndex));
-				for(int2 = startPropertyIndex,intValue=0; int2 < lesserLength; int2++,intValue++){
+				for(var int2 = startPropertyIndex,intValue=0; int2 < lesserLength; int2++,intValue++){
 					var name = templateItem[int2];
 					originalObject[name] =cells[intValue];
 					
